@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Keep only .ino files
+!*.ino
+
+# Allow Git to enter directories (otherwise it won't see .ino files in subfolders)
+!*/
+
+# Keep the .gitignore file itself in the repository
+!*.gitignore
